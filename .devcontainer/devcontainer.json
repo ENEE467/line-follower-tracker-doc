@@ -1,0 +1,24 @@
+{
+	"dockerFile": "Dockerfile",
+	"remoteUser": "467-dev",
+	"workspaceMount": "source=${localEnv:HOME}/line-follower-tracker-doc,target=/home/467-dev/line-follower-tracker-doc,type=bind",
+	"workspaceFolder": "/home/467-dev/line-follower-tracker-doc",
+	"runArgs": [
+		"--network=host",
+		"--ipc=host"
+	],
+	// Set *default* container specific settings.json values on container create.
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"yzhang.markdown-all-in-one",
+				"redhat.vscode-yaml",
+				"lextudio.restructuredtext",
+				"lextudio.restructuredtext-pack",
+				"swyddfa.esbonio"
+			]
+		}
+	},
+	"postCreateCommand": ".devcontainer/setup.sh"
+}
