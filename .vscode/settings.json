@@ -1,0 +1,13 @@
+{
+  "editor.rulers": [
+    100
+  ],
+  "files.autoSave": "afterDelay",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "editor.tabSize": 3,
+  "restructuredtext.experimental": true,
+  "esbonio.sphinx.confDir": "${workspaceFolder}/source",
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.enablePersistentSessions": false
+}
