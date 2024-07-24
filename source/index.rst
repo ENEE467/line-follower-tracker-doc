@@ -7,7 +7,7 @@ Line Follower Tracker Documentation
 ===================================
 
 We have created a tool for obtaining precise and repeatable tracking of the bot as it traverses any
-path in the plane. The tool consists of a camera aimed at the plane of the track. Several ArUcO tags
+path in the plane. The tool consists of a camera aimed at the plane of the track. Several ArUco tags
 are attached to the plane. At least three of these tags must be seen by the camera. The images of
 these tags are used to precisely determine the pose of the plane containing the track.
 
